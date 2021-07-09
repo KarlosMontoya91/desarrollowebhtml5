@@ -15,6 +15,35 @@
             background-color: black;
             padding: .5rem;
         }
+        .bienvenida {
+            color: brown;
+            font-size: 8rem;
+            -webkit-text-stroke: white .1rem;
+            animation-name: agrandamiento;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+        }
+        .caja {
+            background-color: rgba(0, 0, 0, 0.445);
+            position: relative;
+            top: 18rem;
+        }
+        @keyframes agrandamiento {
+            0% {
+                transform: scale(1);
+
+            }
+            50% {
+                transform: scale(.8);
+
+            }
+            100% {
+                transform: scale(1);
+
+            }
+        }
+
     </style>
     <title>Document</title>
 </head>
@@ -28,6 +57,12 @@
             <a href="../Practica3/blog.html">Blog</a>
 
         </div>
+        <div class="caja">
+            <h1 class="bienvenida">
+            Bienvenidos Marveliences
+        </h1>
+        </div>
+        
 
 
     </center>
