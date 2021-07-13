@@ -11,12 +11,14 @@
             padding: 0%;
             margin: 0%;
         }
+
         .barra {
             background-color: black;
             padding: .5rem;
         }
     </style>
-    <title>Document</title>
+    <script src="JS/login.js"></script>
+    <title>Login</title>
 </head>
 
 <body>
@@ -38,13 +40,14 @@
                 <label><i>Iniciar sesion</i></label>
             </div>
             <div>
-                <input type="text" placeholder="Usuario"></div>
+                <input id="email" type="email" placeholder="Usuario">
+            </div>
             </div>
             <div>
-                <input type="text" placeholder="******">
+                <input id="password" type="password" placeholder="******">
             </div>
             <div>
-                <button><a href="./index.html">Conectar</a></button>
+                <button type="button" onclick="Comprobar()">Conectar</button>
             </div>
         </form>
 
